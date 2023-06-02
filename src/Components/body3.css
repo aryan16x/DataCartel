@@ -1,0 +1,41 @@
+.body3_body{
+    /* margin-top:3rem; */
+    background-color: green;
+}
+
+.body3_dataset_table{
+    
+    /* margin-bottom: */
+    height: 200px;
+    width: 50%;
+    margin:auto;
+    
+
+    background-color: orange;
+}
+.body3_button {
+        margin:auto;
+        margin-top:3rem;
+        margin-bottom:3rem;
+
+        width: 170px;
+        height: 60px;
+        text-decoration:none;
+        display: inline-block;
+        outline: none;
+        cursor: pointer;
+        border-style: none;
+        color: white;
+        background-color:#010101;
+        border-radius: 200px;
+        overflow: none;
+        text-align: center;
+
+  }
+  
+.body3_button:hover {
+    background-color: white;
+    color: black;
+    border: 0.5px solid  black;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.50),0 17px 50px 0 rgba(0,0,0,0.19);
+}

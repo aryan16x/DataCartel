@@ -1,0 +1,29 @@
+
+.body2_body{
+    background-color: yellow;
+}
+.body2_button{
+    margin:auto;
+    margin-top:3rem;
+    margin-bottom:3rem;
+
+    width: 170px;
+    height: 60px;
+    text-decoration:none;
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    border-style: none;
+    color: white;
+    background-color:#010101;
+    border-radius: 200px;
+    overflow: none;
+    text-align: center;
+
+}
+.body2_button:hover {
+    background-color: white;
+    color: black;
+    border: 0.5px solid  black;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.50),0 17px 50px 0 rgba(0,0,0,0.19);
+}
