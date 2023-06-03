@@ -2,7 +2,8 @@ export const initialState = {
     dataset_name: [],
     count: [],
     entry: [],
-    jsonx: []
+    jsonx: [],
+    des: []
 };
 
 const reducer = (state, action) => {
@@ -13,7 +14,9 @@ const reducer = (state, action) => {
                 ...state,
                 dataset_name: [action.item.dataset_name],
                 count: [action.item.count],
-                entry: [action.item.entry]
+                entry: [action.item.entry],
+                jsonx: [],
+                des: [action.item.des]
             };
 
         case 'JSON_DATA':

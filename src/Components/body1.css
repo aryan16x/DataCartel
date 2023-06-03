@@ -1,32 +1,48 @@
+
+/* *{
+    top: 0;
+    left: 0;
+} */
+
+.parent{
+    display:flex;
+    margin-top:0px;
+}
+
 .body1_body{
     /* background-color: red; */
     /* display: inline-block;
     border: 1px solid red;
     padding: 1rem 1rem;
     vertical-align: middle; */
+    margin-top:0px;
+    margin-left: 50px;
+    width:100%;
+    text-align:left;
 }
 .body1_input{
-
-    /* width: 80%; */
     margin:auto;
-    top-margin:3rem;
-    /* margin-top: 3rem;
-    margin-bottom: 3rem; */
-    /* background-color: blue; */
 }
 
 /*  */
 .body1_textspan{
     /* background-color:blue; */
     display:inline-block;
-    text-weight:bold;
     width: 50%;
     margin:auto;
     text-align:left;
     margin-top:2rem;
-    /* margin-bottom: 3rem; */
+    text-align: left;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+    margin-bottom: 1rem;
 
 }
+
+.steps{
+    font-family: 'Bebas Neue', sans-serif;
+}
+
 /* .body1_data{
     width: 25%;
     margin:auto;
@@ -54,7 +70,7 @@
         border-style: none;
         color: white;
         background-color:#010101;
-        border-radius: 200px;
+        /* border-radius: 200px; */
         overflow: none;
         text-align: center;
 
@@ -65,17 +81,14 @@
     border: 0.5px solid  black;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.50),0 17px 50px 0 rgba(0,0,0,0.19);
 }
-.body1_dataset_name{
-    border-radius:200px;
-    border:0.1rem solid;
+.body1_input{
+    border-radius: none;
+    margin-top: -10px;
 }
-.body1_parameter_number{
-    border-radius:200px;
-    border:0.1rem solid;
-}
-.body1_entry_number{
-    border-radius:200px;
-    border:0.1rem solid;
+.body1_data > input{
+    background-color: rgba(128, 128, 128, 0.274);
+    /* border: 0.5px solid black; */
+    border: none;
 }
 ::placeholder {
     /* font-style: italic; */
@@ -86,33 +99,95 @@
     /* font-weight: bold; */
   }
   /* Sidebar container */
-/* .sidebar {
-    width: 20%;
+.sidebar {
+    /* display:flex; */
+    margin-top:0px;
+    width: 45%;
     height: 100vh;
-    background-color: #f1f1f1;
+    background-color: black;
+    color:white;
+
   } 
   
   /* Sidebar content */
-  /* .sidebar-content {
-    padding: 20px;
-  } */
+  .sidebar-content {
+    padding:20px;
+    margin:auto;
+    margin-top:4rem;
+    text-align: left;
+    /* color:white; */
+  } 
   
   /* Sidebar links */
-  /* .sidebar a {
+  .sidebar a {
     display: block;
     padding: 10px;
     text-decoration: none;
-    color: #333;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
   }
   
   Active link
    .sidebar a.active {
-    background-color: #ddd;
+    background-color: rgba(255, 255, 255, 0.233);
   }
   .sidebar {
-    border: 1px solid black;
-    margin: 1rem;
-    padding: 2rem 2rem;
     text-align: center;
-  }  */
- 
+  } 
+  
+.sidebar-content a{
+    /* border: 0.5px solid rgba(255, 255, 255, 0.203); */
+    font-size: 15px;
+    line-height: 55px;
+    height: 70px;
+}
+.step1{
+    margin-top:2rem;
+    font-size:30px;
+    width:100%;
+    background-color:rgba(255, 255, 255, 0.251);
+    /* border-radius:40px; */
+}
+.step2{
+    margin-top:2rem;
+    font-size:30px;
+    background-color:rgba(255, 255, 255, 0.08);
+    /* border-radius:40px; */
+    /* background-color: */
+}
+.step3{
+    margin-top:2rem;
+    font-size:30px;
+    background-color:rgba(255, 255, 255, 0.08);
+    /* border-radius:40px; */
+    /* background-color: */
+}
+.nextbutton1{
+    margin-top: 30px;
+    width: 45%;
+    height: 50px;
+    border-radius:40px;
+    background-color:rgb(255, 255, 255);
+    border:none;
+    font-weight: bold;
+}
+.nextbutton1:hover {
+    background-color: white;
+    color: black;
+    border: 0.5px solid  black;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.50),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.body1_heading{
+    font-family: 'Mrs Sheppards', cursive;
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: -15px;
+}
+
+.body1_sidebar_heading{
+    font-family: 'Proza Libre', sans-serif;
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: -60px;
+}
