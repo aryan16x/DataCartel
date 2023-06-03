@@ -2,7 +2,7 @@ import './App.css';
 import Body1 from './Components/Body1';
 import Body2 from './Components/Body2';
 import Body3 from './Components/Body3';
-import Header from './Components/Header';
+// import Header from './Components/Header';
 import Footer from './Components/footer';
 import {
   BrowserRouter,
@@ -14,7 +14,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <Header />
+        {/* <Header /> */}
         <Routes>
           <Route path='/'
             element={<><div className='App'>

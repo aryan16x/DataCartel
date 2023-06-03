@@ -4,7 +4,9 @@ import './index.css';
 import App from './App';
 import { StateProvider } from './Components/StateProvider';
 import reducer, { initialState } from './Components/reducer';
-
+ <style> 
+  @import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+</style>  
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>

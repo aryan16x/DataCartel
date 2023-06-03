@@ -5,9 +5,9 @@ import "./header.css"
 function Header() {
   return (
     <>
-    <nav className="navbar sticky-top navbar-expand-lg navbar-dark bg-dark header_navbar">
+    <nav className="navbar sticky-top navbar-expand-lg navbar-dark bg-black header_navbar">
     <div className="container-fluid">
-      <Link to={"/"}><a className="navbar-brand header_name " href="#"><b>DATACARTEL</b></a></Link>
+      <Link to={"/"}><a className="navbar-brand header_name  " href="#" ><b>DATACARTEL</b></a></Link>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
       </button>

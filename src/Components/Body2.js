@@ -53,7 +53,7 @@ function Body2() {
     <>
         <div className="body2_body d-flex flex-column vh-100">
             {/* [...Array(n)].map((e, i) => <span className="busterCards" key={i}>♦</span>) */}
-            <section>
+            <section className='body2_parameter_boxes'>
                 {Array.from({ length: state.count }, (_, i) => <input type="text" onChange={(event) => handle_p_i_change(i, event)} className={`parameterx parameter_name_field_${i}`} placeholder={`Enter Parameter ${i+1}`}/>)}
             </section>
             <Link to={"/dataset"}><button onClick={generate_dataset} className="body2_button">Generate Dataset</button></Link>

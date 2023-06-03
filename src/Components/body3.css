@@ -1,17 +1,29 @@
 .body3_body{
-    /* margin-top:3rem; */
-    background-color: green;
+    /* margin-top:0px; */
+    /* background-color: green; */
 }
 
 .body3_dataset_table{
     
     /* margin-bottom: */
     height: 200px;
-    width: 50%;
+    width: 100%;
     margin:auto;
-    
+    margin-top:2px;
 
-    background-color: orange;
+    background-color: rgb(205, 202, 202);
+}
+/* .body3_dataset_table{
+    margin-top:4px;
+}
+.body3_data{
+    margin-top:1px;
+} */
+.Jsondata{
+    margin:auto;
+    text-align:left;
+    font-family: 'Courier Prime', monospace;
+    font-weight:bold;
 }
 .body3_button {
         margin:auto;
