@@ -1,6 +1,6 @@
 # Datacartel
 
-[Datacartel website link](datacartel.shop)
+[Datacartel website link](www.datacartel.shop)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
