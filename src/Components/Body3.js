@@ -8,7 +8,7 @@ function Body3() {
   const [state, dispatch] = useStateValue();
 
   let res = state.jsonx
-  let res2 = JSON.stringify(state.jsonx[0])
+ let res2 = JSON.stringify(state.jsonx[0])
   
   
   // document.getElementById("Jsondata").innerText = `${res}`
@@ -24,6 +24,14 @@ function Body3() {
     link.click();
     document.body.removeChild(link);
   };
+
+  const mockData = [{
+    "name": "aryan",
+    "age": 20
+  },{
+    "name": "aryan",
+    "age": 20
+  }]
 
 
 
@@ -60,7 +68,7 @@ function Body3() {
               <b>Download JSON</b>
             </button>
             <CsvDownloadButton
-              data={res[0].data}
+              data={mockData}
               filename="good_data.csv"
               className="body3_button"
             >
