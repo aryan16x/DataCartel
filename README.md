@@ -2,6 +2,23 @@
 
 In recent times, the remarkable advancements in AI/ML have captivated numerous individuals, drawing them towards this field. However, for **entry-level ML practitioners** seeking to work with **customized datasets, finding the ideal data** that fulfills their specific requirements can be a daunting task. Many datasets suffer from issues such as data cleaning issues, extraneous features, duplicate entries, and more. But fret not, as we are here to put an end to your data mining journey with **Datacartel**.
 
+## Table of Contents
+
+- [Daracartel - The sole solution for Data Miners](#daracartel---the-sole-solution-for-data-miners)
+  - [Table of Contents](#table-of-contents)
+  - [Problem Statement](#problem-statement)
+  - [Proposed Solution](#proposed-solution)
+  - [How user-side works??](#how-user-side-works)
+  - [How backend works??](#how-backend-works)
+  - [Technologies Used](#technologies-used)
+  - [Libraries Used](#libraries-used)
+  - [Frameworks Used](#frameworks-used)
+  - [Api used](#api-used)
+  - [File Structure](#file-structure)
+  - [Concepts Used](#concepts-used)
+  - [Features](#features)
+  - [Getting Started](#getting-started)
+
 ## Problem Statement
 
 Entry-level ML practitioners struggle to find suitable datasets that meet their specific needs, as existing datasets often suffer from issues like data cleaning problems, extraneous features, and duplicate entries. **Datacartel** aims to solve this problem by providing curated datasets to streamline the data mining process for ML practitioners.
@@ -90,5 +107,6 @@ To get started with the Datacartel project, follow the instructions below:
 
 1. Clone the repository: `git clone [repository URL]`
 2. Install the dependencies: `npm install`
-3. Run the application: `npm start`
-4. Access the web app through your browser at `http://localhost:3000`
+3. Install requirements: `pip install -r requirements.txt`
+4. Run the application: `npm start`
+5. Access the web app through your browser at `http://localhost:3000`
