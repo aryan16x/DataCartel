@@ -4,20 +4,18 @@ In recent times, the remarkable advancements in AI/ML have captivated numerous i
 
 ## Table of Contents
 
-- [Daracartel - The sole solution for Data Miners](#daracartel---the-sole-solution-for-data-miners)
-  - [Table of Contents](#table-of-contents)
-  - [Problem Statement](#problem-statement)
-  - [Proposed Solution](#proposed-solution)
-  - [How user-side works??](#how-user-side-works)
-  - [How backend works??](#how-backend-works)
-  - [Technologies Used](#technologies-used)
-  - [Libraries Used](#libraries-used)
-  - [Frameworks Used](#frameworks-used)
-  - [Api used](#api-used)
-  - [File Structure](#file-structure)
-  - [Concepts Used](#concepts-used)
-  - [Features](#features)
-  - [Getting Started](#getting-started)
+- [Problem Statement](#problem-statement)
+- [Proposed Solution](#proposed-solution)
+- [How user-side works??](#how-user-side-works)
+- [How backend works??](#how-backend-works)
+- [Technologies Used](#technologies-used)
+- [Libraries Used](#libraries-used)
+- [Frameworks Used](#frameworks-used)
+- [Api used](#api-used)
+- [File Structure](#file-structure)
+- [Concepts Used](#concepts-used)
+- [Features](#features)
+- [Getting Started](#getting-started)
 
 ## Problem Statement
 
