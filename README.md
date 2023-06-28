@@ -17,9 +17,15 @@ We are developing a website that empowers users to generate datasets on any topi
     2. Number of entries as per their requirements. Currently, website only allows upto 1000 entries.
     3. Number of features they want to add in dataset.
 
+![Home Page](/Images/image.png)
+
 * Once you hit next, add parameters page will popout. There, you have to add features name.
 
+![Parameters Page](/Images/image-1.png)
+
 * That's it. Now it's our turn. As you press next button. In a very short time, you will get your dataset. You can download it in csv or json format.
+
+![Final Page](/Images/image-2.png)
 
 ## How backend works??
 
