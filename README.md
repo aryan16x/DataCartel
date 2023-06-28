@@ -1,72 +1,88 @@
-# Datacartel
+# Daracartel - The sole solution for Data Miners
 
-[Datacartel website link](https://www.datacartel.shop)
+In recent times, the remarkable advancements in AI/ML have captivated numerous individuals, drawing them towards this field. However, for **entry-level ML practitioners** seeking to work with **customized datasets, finding the ideal data** that fulfills their specific requirements can be a daunting task. Many datasets suffer from issues such as data cleaning issues, extraneous features, duplicate entries, and more. But fret not, as we are here to put an end to your data mining journey with **Datacartel**.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Problem Statement
 
-## Available Scripts
+Entry-level ML practitioners struggle to find suitable datasets that meet their specific needs, as existing datasets often suffer from issues like data cleaning problems, extraneous features, and duplicate entries. **Datacartel** aims to solve this problem by providing curated datasets to streamline the data mining process for ML practitioners.
 
-In the project directory, you can run:
+## Proposed Solution
 
-### `npm start`
+We are developing a website that empowers users to generate datasets on any topic of their choice. With our platform, users have the freedom to create datasets with any number of features they require. However, currently, the dataset retrieval is limited to a maximum of 1000 entries per request. Rest assured, our application offers unrestricted access, allowing users to fetch suitable datasets that precisely meet their specific needs.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## How user-side works??
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* So, on the Main page, users need to give 3 parameters.
+    1. dataset name or breif description about dataset around 10-15 words.
+    2. Number of entries as per their requirements. Currently, website only allows upto 1000 entries.
+    3. Number of features they want to add in dataset.
 
-### `npm test`
+* Once you hit next, add parameters page will popout. There, you have to add features name.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* That's it. Now it's our turn. As you press next button. In a very short time, you will get your dataset. You can download it in csv or json format.
 
-### `npm run build`
+## How backend works??
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* When a user requests a dataset, we conduct a thorough analysis of the dataset details and feature names. This analysis serves as the basis for generating a suitable prompt. Leveraging OpenAI's API, we generate a response specific to the provided prompt. Once we receive the response, we carefully cross-check the data against real-world data sources. If the data aligns and appears to be accurate, we proceed to send it to the user. The user can then conveniently download the dataset in either CSV or JSON format.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Technologies Used
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- HTML5 and CSS3 for the user interface
+- JavaScript for client-side interactivity
 
-### `npm run eject`
+## Libraries Used
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- ReactJS to build efficient, scalable, and interactive user interfaces by leveraging component-based architecture and virtual DOM.
+- Material-UI to create visually appealing design for great user experience.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Frameworks Used
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Flask to build server-side components and APIs that powers the application.
+- Bootstrap to create responsive grid system, simplifying the process of creating stylish and mobile-friendly web applications.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Api used
 
-## Learn More
+- OpenAI's API to generate datasets, ensuring high-quality and relavent data for users.
+- RestAPI to handle user requests, providing a seamless interface for users to interect with the plateform. Users can conveniently submit their dataset generation requests through the RestAPI and retrieve the generated datasets in a format of their choice.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## File Structure
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+src <br>
+├── App.css <br>
+├── App.js <br>
+├── Components <br>
+│   ├── body1.css <br>
+│   ├── Body1.js <br>
+│   ├── body2.css <br>
+│   ├── Body2.js <br>
+│   ├── body3.css <br>
+│   ├── Body3.js <br>
+│   ├── footer.js <br>
+│   ├── header.css <br>
+│   ├── Header.js <br>
+│   ├── reducer.js <br> 
+│   └── StateProvider.js <br>
+├── index.css <br>
+└── index.js <br>
 
-### Code Splitting
+## Concepts Used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- <b>Prompt Engineering</b> : to elicit desired responses from AI Models based on users data demands. Crafting input instruction based on demands to give very specific and unique datasets to the users.
+- <b>React Router</b> : to easily navigate through all pages like searchPage, playBack, and homePage and to provide a seamless and great user experience with smooth transition without page loading. 
+- <b>Context</b> : to manage and share state across components without the need for prop drilling and to provide a consistent, personalized, and customized experience to the user. Also from the developer's point of view, data sharing and state changes are easily configured using context API.
+- <b>React Props</b> : it plays a crucial role in both user interaction and developer workflow. it enables customization, interactivity, and communication within the application while promoting reusable and modular code structures. Props facilitate a smooth and efficient development process, allowing developers to create user-friendly and maintainable React applications.
 
-### Analyzing the Bundle Size
+## Features
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Dataset Name : Choose your own topic
+- Features for dataset : Choose any number of features according to your need
+- Entries : Choose upto 1000 entries as your requirements.
 
-### Making a Progressive Web App
+## Getting Started
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+To get started with the Datacartel project, follow the instructions below:
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Clone the repository: `git clone [repository URL]`
+2. Install the dependencies: `npm install`
+3. Run the application: `npm start`
+4. Access the web app through your browser at `http://localhost:3000`
